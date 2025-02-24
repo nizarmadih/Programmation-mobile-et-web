@@ -1,0 +1,46 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: lightblue;
+}
+.email, .pass, .rpass, .num, .birth
+{
+    display: block;
+    width: 350px;
+    height: 40px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    border-style: solid;
+    padding-left: 10px;
+    border:none;
+}
+.confirm
+{
+    width: 358px;
+    height: 35px;
+    margin-bottom: 5px;
+}
+.firstname, .lastname
+{
+    height: 40px;
+    margin-bottom: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    border-style: solid;
+    padding-left: 10px;
+    border:none;
+}
+.login
+{
+    text-align: center;
+}
+
+.notfilled
+{
+    background-color: red;
+}
+

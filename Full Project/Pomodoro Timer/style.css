@@ -1,0 +1,9 @@
+.taskdiv
+{
+    display: flex;
+}
+.task
+{
+    flex: 1;
+    text-align: center;
+}

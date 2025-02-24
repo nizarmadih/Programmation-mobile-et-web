@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src = "promodoro.js"></script>
+        <script src = "tasks.js"></script>
+    </head>
+    <body>
+        <div>
+            <p>work sessions : <span id = "cycle_counter">0</span></p>
+            <p id = "work_timer">25:00</p>
+            <p id = "break_timer">05:00</p>
+            <button onclick = DecideTimer()>Start</button>
+            <button onclick = Pause()>Pause</button>
+            <button onclick = Reset()>Reset</button>
+        </div>
+        <div>
+            <p>Tasks :</p>
+            <div id = "tasklist">
+            </div>
+            <button onclick=Show_InputTasks()>Add</button>
+        </div>
+    </body>
+</html>
