@@ -6,17 +6,19 @@
         <script src = "tasks.js"></script>
     </head>
     <body>
-        <div>
+        <div class = "timer">
             <p>work sessions : <span id = "cycle_counter">0</span></p>
-            <p id = "work_timer">25:00</p>
-            <p id = "break_timer">05:00</p>
-            <button onclick = DecideTimer()>Start</button>
-            <button onclick = Pause()>Pause</button>
-            <button onclick = Reset()>Reset</button>
+            <p id = "work_timer" class = "worktimer">00:03</p>
+            <p id = "break_timer" class = "breaktimer">00:03</p>
+            <div class = "controls">
+                <button onclick = DecideTimer()>Start</button>
+                <button onclick = Pause()>Pause</button>
+                <button onclick = Reset()>Reset</button>
+            </div>
         </div>
-        <div>
-            <p>Tasks :</p>
-            <div id = "tasklist">
+        <div class = "Tasks">
+            <p class = "title">Tasks :</p>
+            <div id = "tasklist" class = "tasklist">
             </div>
             <button onclick=Show_InputTasks()>Add</button>
         </div>

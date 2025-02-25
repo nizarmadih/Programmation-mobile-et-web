@@ -9,6 +9,7 @@ function CheckInfo()
     array = [user, pass];
     CheckNecessary(array);
     CheckPassword(pass);
+    CheckEmail(user);
 }
 function CheckPassword(pass)
 {
@@ -19,6 +20,13 @@ function CheckPassword(pass)
     else
     {
         window.open("main.html")
+    }
+}
+function CheckEmail(input)
+{
+    if(input.includes("@"))
+    {
+        
     }
 }
 function CheckNecessary(inputs)

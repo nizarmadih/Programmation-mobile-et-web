@@ -1,9 +1,67 @@
+body
+{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+button
+{
+    width: 150px;
+    height: 50px;
+}
+p, button
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.timer p
+{
+    text-align: center;
+    font-size: 50px;
+}
+.timer
+{
+    margin-bottom: 50px;
+}
+.worktimer, .breaktimer
+{
+    font-weight: bold;
+    font-size: 60px;
+}
+.controls
+{
+    display: flex;
+    justify-content: space-between;
+}
+.title
+{
+    font-weight: bold;
+    font-size: 60px;
+}
+.Tasks
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.tasklist
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
 .taskdiv
 {
     display: flex;
+    width: 100%;
 }
 .task
 {
     flex: 1;
     text-align: center;
 }
+
